@@ -1,0 +1,561 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/1> <http://127.0.0.1:3333/escolaridad> "549961268";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/0>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "73";
+  <http://127.0.0.1:3333/totalmatriculas> "603"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.84872E1;
+  geo:long -7.0295212E1;
+  foaf:name "LICEO POLITECNICO ARICA" .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/2> <http://127.0.0.1:3333/escolaridad> "158968289";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/1>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Media Jornada";
+  <http://127.0.0.1:3333/totaldocentes> "15";
+  <http://127.0.0.1:3333/totalmatriculas> "200"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.846986198E1;
+  geo:long -7.030275726E1;
+  foaf:name "PARVULARIO LAS ESPIGUITAS" .
+
+<http://127.0.0.1:3333/3> <http://127.0.0.1:3333/escolaridad> "261073949";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Rural";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/2>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Media Jornada";
+  <http://127.0.0.1:3333/totaldocentes> "29";
+  <http://127.0.0.1:3333/totalmatriculas> "469"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.850358009E1;
+  geo:long -7.026082611E1;
+  foaf:name "ESC. PEDRO VICENTE GUTIERREZ TORRES" .
+
+<http://127.0.0.1:3333/4> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/JuanGuillermoJordánArias>;
+  <http://127.0.0.1:3333/escolaridad> "956360043";
+  <http://127.0.0.1:3333/leng> "260"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "272"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/3>;
+  <http://127.0.0.1:3333/soc> "266"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "68";
+  <http://127.0.0.1:3333/totalmatriculas> "990"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8474239E1;
+  geo:long -7.0308273E1;
+  foaf:name "LICEO OCTAVIO PALMA PEREZ" .
+
+<http://127.0.0.1:3333/JuanGuillermoJordánArias> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Juan Guillermo Jordán Arias" .
+
+<http://127.0.0.1:3333/5> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/JuanAldoZentenoRamírez>;
+  <http://127.0.0.1:3333/escolaridad> "889720346";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Otro";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/4>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "70";
+  <http://127.0.0.1:3333/totalmatriculas> "892"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.84769E1;
+  geo:long -7.0313454E1;
+  foaf:name "JOVINA NARANJO FERNANDEZ" .
+
+<http://127.0.0.1:3333/JuanAldoZentenoRamírez> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Juan Aldo Zenteno Ramírez" .
+
+<http://127.0.0.1:3333/7> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/FermínBalbinoBurgosCórdova>;
+  <http://127.0.0.1:3333/escolaridad> "1135729727";
+  <http://127.0.0.1:3333/leng> "249"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "275"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/5>;
+  <http://127.0.0.1:3333/soc> "250"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "96";
+  <http://127.0.0.1:3333/totalmatriculas> "1125"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8476151E1;
+  geo:long -7.0288368E1;
+  foaf:name "L. POLI. ANTONIO VARAS DE LA BARRA" .
+
+<http://127.0.0.1:3333/FermínBalbinoBurgosCórdova> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Fermín Balbino Burgos Córdova" .
+
+<http://127.0.0.1:3333/8> <http://127.0.0.1:3333/escolaridad> "696440402";
+  <http://127.0.0.1:3333/leng> "243"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "245"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Otro";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/6>;
+  <http://127.0.0.1:3333/soc> "251"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "59";
+  <http://127.0.0.1:3333/totalmatriculas> "624"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8482491E1;
+  geo:long -7.0317581E1;
+  foaf:name "COLEGIO INTEGRADO EDUARDO FREI MONTALVA" .
+
+<http://127.0.0.1:3333/6> <http://127.0.0.1:3333/leng> "249"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "259"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "257"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/9> <http://127.0.0.1:3333/escolaridad> "1514467982";
+  <http://127.0.0.1:3333/leng> "201"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "218"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/7>;
+  <http://127.0.0.1:3333/soc> "219"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "92";
+  <http://127.0.0.1:3333/totalmatriculas> "1471"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8486691E1;
+  geo:long -7.030452E1;
+  foaf:name "ESCUELA REPUBLICA DE ISRAEL" .
+
+<http://127.0.0.1:3333/10> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/DorianneMaríaLydaLlanosSoto>;
+  <http://127.0.0.1:3333/escolaridad> "189102767";
+  <http://127.0.0.1:3333/leng> "265"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "287"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/8>;
+  <http://127.0.0.1:3333/soc> "273"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "23";
+  <http://127.0.0.1:3333/totalmatriculas> "192"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8474369E1;
+  geo:long -7.0309036E1;
+  foaf:name "ESCUELA REPUBLICA DE FRANCIA" .
+
+<http://127.0.0.1:3333/DorianneMaríaLydaLlanosSoto> <http://127.0.0.1:3333/cargo>
+    "Director(a)";
+  foaf:name "Dorianne María Lyda Llanos Soto" .
+
+<http://127.0.0.1:3333/11> <http://127.0.0.1:3333/escolaridad> "341048760";
+  <http://127.0.0.1:3333/leng> "209"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "238"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Otro";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/9>;
+  <http://127.0.0.1:3333/soc> "228"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "38";
+  <http://127.0.0.1:3333/totalmatriculas> "348"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8491011E1;
+  geo:long -7.0311577E1;
+  foaf:name "ESC. GRAL. PEDRO LAGOS MARCHANT" .
+
+<http://127.0.0.1:3333/12> <http://127.0.0.1:3333/escolaridad> "333352773";
+  <http://127.0.0.1:3333/leng> "221"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "234"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/10>;
+  <http://127.0.0.1:3333/soc> "221"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "31";
+  <http://127.0.0.1:3333/totalmatriculas> "327"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.849193E1;
+  geo:long -7.0293968E1;
+  foaf:name "ESCUELA GRAL JOSE MIGUEL CARRERA" .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/13> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/RosaElianaLópezRodríguez>;
+  <http://127.0.0.1:3333/escolaridad> "297479361";
+  <http://127.0.0.1:3333/leng> "228"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "246"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/11>;
+  <http://127.0.0.1:3333/soc> "239"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "27";
+  <http://127.0.0.1:3333/totalmatriculas> "280"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.848134E1;
+  geo:long -7.0285347E1;
+  foaf:name "ESCUELA MANUEL RODRIGUEZ ERDOYZA" .
+
+<http://127.0.0.1:3333/RosaElianaLópezRodríguez> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Rosa Eliana López Rodríguez" .
+
+<http://127.0.0.1:3333/14> <http://127.0.0.1:3333/escolaridad> "347063622";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/leng> "234"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "251"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/12>;
+  <http://127.0.0.1:3333/soc> "237"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "28";
+  <http://127.0.0.1:3333/totalmatriculas> "349"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8481239E1;
+  geo:long -7.0289757E1;
+  foaf:name "ESCUELA ROMULO J. PENA MATURANA" .
+
+<http://127.0.0.1:3333/15> <http://127.0.0.1:3333/escolaridad> "408082748";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Otro";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/13>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/leng> "238"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "247"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "231"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "54";
+  <http://127.0.0.1:3333/totalmatriculas> "394"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.847138596E1;
+  geo:long -7.0300354E1;
+  foaf:name "LICEO ARTISTICO DR. JUAN NOE CREVANI" .
+
+<http://127.0.0.1:3333/16> <http://127.0.0.1:3333/escolaridad> "312350384";
+  <http://127.0.0.1:3333/leng> "212"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "227"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/14>;
+  <http://127.0.0.1:3333/soc> "231"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "29";
+  <http://127.0.0.1:3333/totalmatriculas> "311"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8474831E1;
+  geo:long -7.0308777E1;
+  foaf:name "ESCUELA REGIMIENTO RANCAGUA" .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/17> <http://127.0.0.1:3333/escolaridad> "430175702";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/15>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "33";
+  <http://127.0.0.1:3333/totalmatriculas> "413"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.846727E1;
+  geo:long -7.0290939E1;
+  foaf:name "ESCUELA SUBTTE. LUIS CRUZ MARTINEZ";
+  <http://127.0.0.1:3333/leng> "240"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "238"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "236"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/AlfredoDanielSaguezCortez>;
+  <http://127.0.0.1:3333/escolaridad> "351052534";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/16>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "40";
+  <http://127.0.0.1:3333/totalmatriculas> "329"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8476681E1;
+  geo:long -7.0287788E1;
+  foaf:name "ESC. COMTE. JUAN JOSE SAN MARTIN" .
+
+<http://127.0.0.1:3333/AlfredoDanielSaguezCortez> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Alfredo Daniel Saguez Cortez" .
+
+<http://127.0.0.1:3333/19> <http://127.0.0.1:3333/escolaridad> "314346193";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/17>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "31";
+  <http://127.0.0.1:3333/totalmatriculas> "304"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8474661E1;
+  geo:long -7.0291908E1;
+  foaf:name "ESC. HUMBERTO VALENZUELA GARCIA" .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA", "ARICA" .
+
+<http://127.0.0.1:3333/20> <http://127.0.0.1:3333/escolaridad> "506899017";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/18>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "49";
+  <http://127.0.0.1:3333/totalmatriculas> "442"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.84797E1;
+  geo:long -7.0295502E1;
+  <http://127.0.0.1:3333/leng> "249"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "274"^^<http://www.w3.org/2001/XMLSchema#int>;
+  foaf:name "ESCUELA TUCAPEL" .
+
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/leng> "229"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "229"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "236"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/22> <http://127.0.0.1:3333/directivo> <http://127.0.0.1:3333/AnaMaríaMelgarVéliz>;
+  <http://127.0.0.1:3333/escolaridad> "985488477";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Laica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/19>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "73";
+  <http://127.0.0.1:3333/totalmatriculas> "962"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.844829E1;
+  geo:long -7.0290649E1;
+  foaf:name "ESCUELA GABRIELA MISTRAL" .
+
+<http://127.0.0.1:3333/AnaMaríaMelgarVéliz> <http://127.0.0.1:3333/cargo> "Director(a)";
+  foaf:name "Ana María Melgar Véliz" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/19> <http://127.0.0.1:3333/leng> "224"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "246"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "236"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/25> <http://127.0.0.1:3333/escolaridad> "713512766";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Otro";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/20>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "61";
+  <http://127.0.0.1:3333/totalmatriculas> "701"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8440001E1;
+  geo:long -7.0293381E1;
+  foaf:name "COLEGIO CENTENARIO DE ARICA" .
+
+<http://127.0.0.1:3333/20> <http://127.0.0.1:3333/soc> "244"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/26> <http://127.0.0.1:3333/escolaridad> "238476324";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/21>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "22";
+  <http://127.0.0.1:3333/totalmatriculas> "250"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.848361E1;
+  geo:long -7.0300591E1;
+  foaf:name "ESCUELA REPUBLICA DE ARGENTINA" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/21> <http://127.0.0.1:3333/leng> "264"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "284"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "262"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/27> <http://127.0.0.1:3333/escolaridad> "299923988";
+  <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/22>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "29";
+  <http://127.0.0.1:3333/totalmatriculas> "308"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8483049E1;
+  geo:long -7.0308029E1;
+  foaf:name "ESCUELA ESMERALDA" .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/22> <http://127.0.0.1:3333/leng> "260"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "272"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "266"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/28> <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/escolaridad> "589486234";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/23>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "50";
+  <http://127.0.0.1:3333/totalmatriculas> "801"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.8485069E1;
+  geo:long -7.0294403E1;
+  foaf:name "ESCUELA RICARDO SILVA ARRIAGADA" .
+
+<http://127.0.0.1:3333/ARICA> <http://127.0.0.1:3333/regionnombre> "AYP";
+  <http://127.0.0.1:3333/regionnumero> "15";
+  foaf:name "ARICA" .
+
+<http://127.0.0.1:3333/23> <http://127.0.0.1:3333/leng> "259"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "272"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "264"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/62000660> <http://127.0.0.1:3333/personalidadjuridica> "Persona jurídica";
+  foaf:name "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE CHINCHORRO" .
+
+<http://127.0.0.1:3333/29> <http://127.0.0.1:3333/orientacionreligiosa> "Católica";
+  <http://127.0.0.1:3333/escolaridad> "541065153";
+  <http://127.0.0.1:3333/pagomatricula> "GRATUITO";
+  <http://127.0.0.1:3333/pagomensual> "GRATUITO";
+  <http://127.0.0.1:3333/ruralidad> "Urbano";
+  <http://127.0.0.1:3333/simce> <http://127.0.0.1:3333/24>;
+  <http://127.0.0.1:3333/sostenedor> <http://127.0.0.1:3333/62000660>;
+  <http://127.0.0.1:3333/tipocolegio> "Servicio Local de Educación";
+  <http://127.0.0.1:3333/tipojornada> "Completa";
+  <http://127.0.0.1:3333/totaldocentes> "46";
+  <http://127.0.0.1:3333/totalmatriculas> "494"^^<http://www.w3.org/2001/XMLSchema#int>;
+  gn:locatedIn <http://127.0.0.1:3333/ARICA>;
+  geo:lat -1.847761E1;
+  geo:long -7.028302E1;
+  foaf:name "ESCUELA AMERICA" .
+
+<http://127.0.0.1:3333/24> <http://127.0.0.1:3333/leng> "209"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/mat> "230"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/soc> "221"^^<http://www.w3.org/2001/XMLSchema#int> .
